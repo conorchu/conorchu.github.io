@@ -1,0 +1,7 @@
+D:\C\HackWorks\HackWorks01\bin\Debug\HackWorks01.exe.config
+D:\C\HackWorks\HackWorks01\bin\Debug\HackWorks01.exe
+D:\C\HackWorks\HackWorks01\bin\Debug\HackWorks01.pdb
+D:\C\HackWorks\HackWorks01\obj\Debug\HackWorks01.csproj.AssemblyReference.cache
+D:\C\HackWorks\HackWorks01\obj\Debug\HackWorks01.csproj.CoreCompileInputs.cache
+D:\C\HackWorks\HackWorks01\obj\Debug\HackWorks01.exe
+D:\C\HackWorks\HackWorks01\obj\Debug\HackWorks01.pdb
