@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ShopLine Clone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+
+
+        .header-nav {
+            background-color: #FF7F50;
+            padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .top-nav-content {
+            display: flex;
+            /* justify-content: ; */
+            gap: 40px; /* 增加 logo 和鏈接之間的間距 */
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+
+        /* 內容 */
+        .main-content {
+            margin-top: 80px; /* 為 Navbar留出空間 */
+            padding: 20px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .content-card {
+            display: flex;
+            margin-bottom: 30px;
+            background-color: #FFBB66;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 250px;
+            object-fit: cover; /* 圖片填滿容器 且 保持比例*/
+            display: block;
+        }
+
+
+        .card-content {
+            padding: 30px;
+            flex: 1;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: white;
+            border: none;
+            border-radius: 4px;
+            margin-top: 110px;
+            cursor: pointer;
+            float: right;
+        }
+
+
+        .footer-nav {
+            background-color: #4A4A4A;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <nav class="header-nav">
+        <div class="top-nav-content">
+            <a href="#" class="logo">ShopLine</a>
+            <div class="nav-links">
+                <a href="#">開店服務</a>
+                <a href="#">行銷推廣</a>
+                <a href="#">方案費用</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 內容 -->
+    <main class="main-content">
+
+        <div class="content-card">
+             <div class="image-container">
+                <img src="./img/0101.png" alt="">
+             </div>
+            <div class="card-content">
+                <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                   內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                   內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</p>
+                <button class="button">按鈕</button>
+            </div>
+        </div>
+
+
+        <div class="content-card">
+            <div class="card-content">
+                <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                   內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                   內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</p>
+                <button class="button">按鈕</button>
+            </div>
+            <div class="image-container">
+                <img src="./img/02.png" alt="">
+             </div>
+        </div>
+
+
+        <div class="content-card">
+            <div class="image-container">
+                <img src="./img/03.png" alt="">
+            </div>
+            <div class="card-content">
+                <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                   內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文
+                   內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文</p>
+                <button class="button">按鈕</button>
+            </div>
+        </div>
+        
+    </main>
+
+
+
+    <nav class="footer-nav">
+        好懶~不知道要放甚麼
+    </nav>
+</body>
+</html>
